@@ -5,7 +5,7 @@ namespace CarDealership.Controllers
 {
     public class HomeController : Controller
     {
-        [HttpGet('/')]
+        [HttpGet("/")]
         public ActionResult Index()
         {
             return View();

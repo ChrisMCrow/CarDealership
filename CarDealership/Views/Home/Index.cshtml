@@ -7,14 +7,9 @@
     </head>
     <body>
         <div class="container">
-            <h1 class="jumbotron">Cars Inventory</h1>
-            <ul>
-                @foreach(var car in Model)
-                {
-                    <li>@car.GetMakeModel(), @car.GetMiles() miles, $@car.GetPrice();</li>
-                }
-            </ul>
-            <a href="/cars/new">Add a car.</a>
+            <h1 class="jumbotron">Welcome to the Car Dealership!</h1>
+            <a href='/cars/new'>Add a new item<a/>
+            <a href='/cars'></a>
         </div>
     </body>
 </html>

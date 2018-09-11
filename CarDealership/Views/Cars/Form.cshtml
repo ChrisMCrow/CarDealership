@@ -1,10 +1,23 @@
-<h1>Car Dealership</h1>
-<form action="/cars" method="post">
-  <label for="makeModel">Add a Make and Model</label>
-  <input id="makeModel" name="makeModel" type="text">
-  <label for="miles">Add Miles</label>
-  <input id="miles" name="miles" type="number">
-  <label for="price">Add a price</label>
-  <input id="price" name="price" type="number">
-  <button type="submit">Submit</button>
-</form>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <title>Cars Inventory</title>
+    </head>
+    <body>
+        <div class="container">
+            <h1 class="jumbotron">Car Dealership</h1>
+            <form action="/cars" method="post">
+              <label for="makeModel">Add a Make and Model</label>
+              <input id="makeModel" name="makeModel" type="text">
+              <label for="miles">Add Miles</label>
+              <input id="miles" name="miles" type="number">
+              <label for="price">Add a price</label>
+              <input id="price" name="price" type="number">
+              <button class="btn btn-danger" type="submit">Submit</button>
+            </form>
+            <a href='/cars'>Return to Inventory</a>
+        </div>
+    </body>
+</html>
